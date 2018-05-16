@@ -15,7 +15,11 @@
     "supertest": "^2.0.0"
   },
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js"
+  },
+  "engines": {
+    "node": "10.1.0"
   },
   "author": "",
   "license": "ISC"
